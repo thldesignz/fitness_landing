@@ -45,10 +45,10 @@ body{
     border-color: #fff;
     background-color: #f60b4e;
 }
-/* .pricing{
+.pricing{
     padding-bottom: 100px;
-    transform: translateY(-10rem)
-} */
+    /* transform: translateY(-10rem) */
+}
 .pricing .price__con{
     padding: 20px;
 }
@@ -60,7 +60,7 @@ body{
 .pricing .outter{
     background: #000;
     color: #fff;
-    max-height: 600px;
+    max-height: 800px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -71,7 +71,7 @@ body{
 .pricing .inner{
     background: #323232;
     color: #fff;
-    max-height: 800px;
+    max-height: 900px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -116,6 +116,12 @@ body{
     padding-bottom: 100px;
     padding-top: 100px;
 }
+.start img{
+    margin-top: 10px;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+}
 .start h1{
     padding-bottom: 20px;
 }
@@ -144,7 +150,7 @@ body{
 .classes .class{
     background: #323232;
     border: 1px solid #fff;
-   
+   margin-bottom: 10px;
 }
 .class__info{
     display: flex;
@@ -280,4 +286,51 @@ footer .btn-outline-primary{
 }
 .us .top{
     padding-bottom: 20px;
+}
+
+
+@media (max-width: 576px) {
+    .pricing{
+        padding-top: 100px;
+        /* transform: translateY(-10rem) */
+    }
+    .pricing .inner{
+        transform: translateY(0);
+        margin-bottom: 5px;
+    }
+    .pricing .outter{
+        transform: translateY(0);
+        margin-bottom: 5px;
+    }
+    .feat img{
+        padding-bottom: 20px;
+
+    }
+    .hero h1{
+        font-size: 2.3rem;
+     
+    }
+}
+
+@media (max-width: 991px) {
+    .pricing{
+        padding-top: 100px;
+        /* transform: translateY(-10rem) */
+    }
+    .pricing .inner{
+        transform: translateY(0);
+        margin-bottom: 5px;
+    }
+    .pricing .outter{
+        transform: translateY(0);
+        margin-bottom: 5px;
+    }
+    .feat img{
+        padding-bottom: 20px;
+        
+    }
+    .hero h1{
+        font-size: 2.3rem;
+     
+    }
 }
